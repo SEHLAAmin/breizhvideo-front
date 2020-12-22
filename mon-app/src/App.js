@@ -8,7 +8,14 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
-    <Router>
+    <div>
+
+    <Home/>
+    <BodyCards />
+    
+    
+    </div>
+    /*<Router>
     <div className="App">
     <Home />
     <Route exact path="/Bodycards" component={Data}/>
@@ -19,7 +26,7 @@ function App() {
         posdetail.name
       }</h1>
     })}
-    </Router>
+    </Router>*/
     
   );
 }
